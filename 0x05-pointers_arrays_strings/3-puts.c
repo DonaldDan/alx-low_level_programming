@@ -4,7 +4,6 @@
  * @str: string
  * Return: lenght of the string
  */
-
 void _puts(char *str)
 {
 	int a = 0;
