@@ -9,7 +9,7 @@
  * @i: Passed in variable from main for calculations
  * Return: The number of coins needed minimum for the passed in variable
  */
-int coinConverter(int i)
+int Converter(int i)
 {
 	int count = 0;
 
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	else
 	{
-		coin = coinConverter(i);
+		coin = Converter(i);
 
 		printf("%d\n", coin);
 	}
